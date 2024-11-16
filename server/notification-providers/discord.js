@@ -38,7 +38,7 @@ class Discord extends NotificationProvider {
                 let discorddowndata = {
                     username: discordDisplayName,
                     embeds: [{
-                        title: "❌ Your service " + monitorJSON["name"] + " went down. ❌",
+                        title: "<:_:1190956321583939584> Your service " + monitorJSON["name"] + " went down. <:_:1190956321583939584>",
                         color: 16711680,
                         timestamp: heartbeatJSON["time"],
                         fields: [
@@ -75,7 +75,7 @@ class Discord extends NotificationProvider {
                 let discordupdata = {
                     username: discordDisplayName,
                     embeds: [{
-                        title: "✅ Your service " + monitorJSON["name"] + " is up! ✅",
+                        title: "<:_:1190956333248303174> Your service " + monitorJSON["name"] + " is up! <:_:1190956333248303174>",
                         color: 65280,
                         timestamp: heartbeatJSON["time"],
                         fields: [
